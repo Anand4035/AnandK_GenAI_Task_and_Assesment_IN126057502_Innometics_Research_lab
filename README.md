@@ -55,8 +55,44 @@ Hyperparameter tuning
 Deployment using Streamlit
 #Technologies Used
 
-Python
-Pandas
-NumPy
-Scikit-learn
-NLTK
+#Python
+#Pandas
+#NumPy
+#Scikit-learn
+#NLTK
+
+# Chatbot using Hugging Face Transformers
+
+##  Objective
+Build a conversational chatbot using a pre-trained transformer model.
+
+##  Technologies Used
+- Python
+- Hugging Face Transformers
+- PyTorch
+
+##  Model Used
+- DialoGPT-medium
+
+##  Workflow
+User Input → Model → Response Generation → Output
+
+##  How to Run
+1. Install dependencies
+2. Run notebook
+3. Start chatting
+
+## 📷 Sample Output
+ Chatbot: Hello! I am your AI assistant. Type 'exit' or 'quit' to stop.
+
+ You: Hello
+ Chatbot: Hi there! How can I help you today?
+
+ You: What is Artificial Intelligence?
+ Chatbot: Artificial Intelligence is the ability of machines to perform tasks that typically require human intelligence.
+
+ You: Who created Python?
+ Chatbot: Python was created by Guido van Rossum.
+
+ You: exit
+ Chatbot: Goodbye! Have a great day!
